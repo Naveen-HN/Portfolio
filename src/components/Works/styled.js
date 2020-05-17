@@ -2,12 +2,12 @@ import styled from "styled-components"
 import media from "styled-media-query"
 import Img from "gatsby-image"
 
-export const WorksContainer = styled.div`
+export const WorksContainer = styled.div `
     display:flex;
     width:100%;
 `
 
-export const WorkItem = styled.div`
+export const WorkItem = styled.div `
     display:flex;
     flex-wrap: wrap;
     width:100%;
@@ -31,7 +31,8 @@ export const WorkItem = styled.div`
     }
 `
 
-export const WorkImage = styled(Img)`
+export const WorkImage = styled(Img)
+`
     height: 100%;
     width: 100%;
 `

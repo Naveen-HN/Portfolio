@@ -1,8 +1,10 @@
-import { createGlobalStyle } from "styled-components"
+import {
+  createGlobalStyle
+} from "styled-components"
 import bg from '../images/bg.jpg'
 import media from "styled-media-query"
 
-const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle `
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
 
   /* http://meyerweb.com/eric/tools/css/reset/

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import media from "styled-media-query"
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.section `
     background: #fff;
     width: auto;
     display:flex;
@@ -25,10 +25,11 @@ export const Wrapper = styled.section`
     `}
 
 `
-export const ImageContainer = styled.div`
+export const ImageContainer = styled.div `
     flex-shrink: 0;
-    width: 380px;
+    width: 480px;
     height: 100%;
+    padding: 20px;
 
     .gatsby-image-wrapper{
         width: 100%;
@@ -64,7 +65,7 @@ export const ImageContainer = styled.div`
     
 `
 
-export const IntroContainer = styled.div`
+export const IntroContainer = styled.div `
     padding: 60px;
     margin-bottom: 0;
     width: auto;

@@ -1,11 +1,14 @@
-const links = [
-  {
+const links = [{
     label: "Home",
     url: "/",
   },
   {
     label: "Work",
-    url: "/work",
+    url: "/works",
+  },
+  {
+    label: "Education",
+    url: "/education"
   },
   {
     label: "Contact",

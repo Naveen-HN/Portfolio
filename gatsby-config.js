@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter | Personality`,
-    description: `A free resposive Gatsby Starter`,
-    author: `@matheusquintaes`,
+    title: `Naveen`,
+    description: `Portfolio Website`,
+    author: `Naveen`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -26,7 +26,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/personality-icon.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.jpg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
